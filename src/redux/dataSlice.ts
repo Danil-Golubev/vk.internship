@@ -6,7 +6,6 @@ import { card } from "../types";
 export interface DataState {
   data: card[];
   loading: boolean;
-  totalObjects: number;
   currentPage: number;
   error: string | null;
 }
@@ -14,7 +13,6 @@ export interface DataState {
 const initialState: DataState = {
   data: [],
   loading: false,
-  totalObjects: 5000,
   currentPage: 1,
   error: null,
 };

@@ -1,26 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "module": "ESNext", // Или "ES6"
+    "target": "ESNext", // Или "ES6"
+    "esModuleInterop": true, // Позволяет использовать CommonJS модули
+    "moduleResolution": "Node" // Подходит для Node.js
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src/**/*"], // Путь к вашим исходным файлам
+  "exclude": ["node_modules", "dist"]
 }

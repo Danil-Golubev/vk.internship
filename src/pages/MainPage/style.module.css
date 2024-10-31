@@ -1,10 +1,10 @@
-.container{
-    width: 100%;
-    height: auto;
-    display:flex;
-    flex-wrap: wrap;
-
-    gap:2%;
-    
-
+.container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.skeleton {
+  height: 100vh;
 }

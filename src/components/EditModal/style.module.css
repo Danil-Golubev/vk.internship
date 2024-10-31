@@ -1,0 +1,50 @@
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* затемнение фона */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.input {
+  box-sizing: border-box;
+  color: white;
+  background-color: rgb(30, 30, 30);
+  border: none;
+  height: 25px;
+  width: 100%;
+  border: 1px solid #6c6c6c;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-sizing: border-box;
+  position: absolute;
+  width: 500px;
+  padding: 20px;
+  background-color: rgb(36, 36, 36);
+  border-radius: 20px;
+
+  z-index: 1001;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttonSave {
+  background-color: #0d00be;
+}
+.buttonCancel {
+  background-color: #818181;
+}

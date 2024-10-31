@@ -1,10 +1,32 @@
-.mainBlock{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-border-radius: 10px;
-    padding: 20px;
-    width:20%;
-    height: auto;
-    border: 1px solid rgba(255, 255, 255, 0.12);
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  height: auto;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.img {
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 1390px) {
+  .mainBlock {
+    max-width: 100%;
+  }
 }
